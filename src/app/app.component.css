@@ -1,0 +1,131 @@
+
+#Main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5em;
+
+  background-color: #215a36;
+  color: #ffffff;
+  border-radius: 25px;
+}
+
+.CampoDeBusca {
+  margin: 2em;
+  width: 35vw;
+}
+
+.CampoDeBusca form {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+form h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Cinzel";
+  font-weight: bold;
+}
+
+form div label {
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+.font-bold option {
+  font-weight: bold;
+}
+
+.search {
+  background-color: #ffffff;
+  color: #215a36;
+  border: 2px solid transparent;
+  font-weight: bold;
+}
+
+.search:hover {
+  background-color: #215a36;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: 0.5s;
+}
+
+.Resultado {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 70vh;
+}
+
+.Resultado div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: cemter; */
+  align-items: end;
+}
+
+.Resultado textarea {
+  margin-bottom: 5px;
+  text-align: center;
+  max-height: 550px;
+  min-height: 160px;
+  min-width: 600px;
+}
+
+.Resultado button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  margin: 2px;
+}
+
+.spinner-border {
+  position: absolute;
+  color: #215a36;
+}
+
+.Resultado div .spinner-border {
+  text-align: center;
+}
+
+.copy {
+  background-color: #215a36;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+.copy:hover {
+  background-color: #ffffff;
+  border: 1px solid #215a36;
+  color: #215a36;
+  transition: 0.5s;
+}
+
+hr {
+  height: 70vh; /* Altura da linha */
+  background-color: #ffffff; /* Cor da linha */
+  width: 5px; /* Largura da linha */
+  border-radius: 20px;
+  margin: 0;
+}
+
+.form-check-label {
+  font-weight: normal;
+  border: 2px solid transparent;
+}
+
+.form-check-input:checked {
+  border: 2px solid #ffffff;
+  background-color: #215a36; /* Cor de fundo quando marcado */
+}
+
+.bold-text {
+  font-weight: bold !important;
+}
