@@ -28,7 +28,7 @@
   <div id="Main">
     <div class="CampoDeBusca">
       <form #searchForm="ngForm" (ngSubmit)="onSubmit(searchForm)">
-        <h1>Busca Do Termo</h1>
+        <h1>Busca do descritor DeCS/MeSH</h1>
         <div class="mb-2">
           <label for="typeSearch" class="form-label"
             >Selecione o Tipo de Busca:</label
@@ -59,7 +59,7 @@
               [ngModel]="false"
             />
             <label class="form-check-label" for="checkSpanishDescription"
-              >Descrição em Espanhol</label
+              >Descritor em espanhol</label
             >
           </div>
           <div class="form-check form-switch">
@@ -73,7 +73,7 @@
               [ngModel]="false"
             />
             <label class="form-check-label" for="checkFrenchDescription"
-              >Descrição Em Francês</label
+              >Descritor em francês</label
             >
           </div>
         </div>
